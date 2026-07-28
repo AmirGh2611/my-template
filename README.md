@@ -1,26 +1,26 @@
 template/
 ├── data/
 │   ├── __init__.py
-│   ├── dataset.py          # data class
-│   └── loader.py           # reading data from hard disk and split
+│   ├── dataset.py          data class
+│   └── loader.py           reading data from hard disk and split
 ├── model/
 │   ├── __init__.py
-│   └── custom_model.py               # deep learning model
+│   └── custom_model.py               deep learning model
 ├── training/
 │   ├── __init__.py
-│   ├── loop.py               # raw pytorch training loop for optuna
-│   └── engine.py             # ignite trainer/evaluator setup for final
+│   ├── loop.py               raw pytorch training loop for optuna
+│   └── engine.py             ignite trainer/evaluator setup for final
 ├── optimization/
 │   ├── __init__.py
-│   ├── build.py               # build_model(trial), build_loaders(trial)
-│   └── objective.py            # optuna objective with pruning
+│   ├── build.py               build_model(trial), build_loaders(trial)
+│   └── objective.py            optuna objective with pruning
 ├── config/
-│   └── config.py                # const variables
+│   └── config.py                const variables
 ├── utils/
 │   ├── __init__.py
-│   └── seed.py                   # set_seed()
+│   └── seed.py                   set_seed()
 ├── outputs/
 │   ├── checkpoints/
-│   └── optuna_study.db            # optuna result
-└── experiment.ipynb           # run optuna and find the best hyperparameters
-└── train.py                         # final train with best hyperparameters
+│   └── optuna_study.db            optuna result
+└── experiment.ipynb           run optuna and find the best hyperparameters
+└── train.py                         final train with best hyperparameters
