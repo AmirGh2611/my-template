@@ -1,4 +1,4 @@
-from .seed import set_seed
+from .seed import 
 
 if __name__ == "__main__":
     pass
