@@ -1,4 +1,4 @@
--template/
+template/
 ├── data/
 │ ├── init.py
 │ ├── dataset.py # data class
