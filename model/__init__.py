@@ -1,4 +1,4 @@
-from .cnn import CUSTOMCNN
+from .cnn import 
 
 if __name__ == "__main__":
     pass
